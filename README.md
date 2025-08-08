@@ -166,12 +166,12 @@ For detailed information about each component, see the individual README files:
 
 ### Core Components
 
-- **[Blockchain Implementation](README_blockchain.md)** - Core blockchain system with proof-of-work mining
-- **[Core Database System](README_core_database.md)** - Main database with dynamic schema creation and validation
-- **[API Wrapper](README_api_wrapper.md)** - Simplified interface with pre-built models and convenience methods
-- **[Examples](README_examples.md)** - Comprehensive usage examples and demonstrations
-- **[Validation Tests](README_tests.md)** - Data validation testing and error handling
-- **[Main Entry Point](README_main.md)** - Project structure and main demo
+- **[Blockchain Implementation](docs/README_blockchain.md)** - Core blockchain system with proof-of-work mining
+- **[Core Database System](docs/README_core_database.md)** - Main database with dynamic schema creation and validation
+- **[API Wrapper](docs/README_api_wrapper.md)** - Simplified interface with pre-built models and convenience methods
+- **[Examples](docs/README_examples.md)** - Comprehensive usage examples and demonstrations
+- **[Validation Tests](docs/README_tests.md)** - Data validation testing and error handling
+- **[Main Entry Point](docs/README_main.md)** - Project structure and main demo
 
 ### Key Features by Component
 
@@ -393,15 +393,15 @@ HyperDB/
 │       ├── __init__.py
 │       └── test_validation.py
 ├── docs/                          # Documentation
-│   ├── README_HYPERLEDGER.md
-│   └── SYSTEM_SUMMARY.md
+│   ├── README_blockchain.md       # Blockchain documentation
+│   ├── README_core_database.md    # Core database documentation
+│   ├── README_api_wrapper.md      # API wrapper documentation
+│   ├── README_examples.md         # Examples documentation
+│   ├── README_tests.md            # Tests documentation
+│   └── README_main.md             # Main entry point documentation
 ├── README.md                      # This file
-├── README_blockchain.md           # Blockchain documentation
-├── README_core_database.md        # Core database documentation
-├── README_api_wrapper.md          # API wrapper documentation
-├── README_examples.md             # Examples documentation
-├── README_tests.md                # Tests documentation
-└── README_main.md                 # Main entry point documentation
+├── BRANDING.md                    # Project branding
+└── PROJECT_STRUCTURE.md           # Project structure documentation
 ```
 
 ## 🔧 Development
@@ -443,7 +443,7 @@ This project is open source and available under the MIT License.
 
 For questions, issues, or contributions:
 
-1. Check the component documentation in the individual README files
+1. Check the component documentation in the individual README files in the `docs/` folder
 2. Run the examples in `src/examples/`
 3. Review the test cases in `src/tests/`
 4. Open an issue on GitHub
@@ -473,12 +473,12 @@ For questions, issues, or contributions:
 
 ### Component-Specific Documentation
 
-- **[Blockchain Implementation](README_blockchain.md)** - Detailed blockchain system documentation
-- **[Core Database System](README_core_database.md)** - Main database functionality and API
-- **[API Wrapper](README_api_wrapper.md)** - Simplified interface and convenience methods
-- **[Examples](README_examples.md)** - Comprehensive usage examples and demonstrations
-- **[Validation Tests](README_tests.md)** - Testing framework and validation scenarios
-- **[Main Entry Point](README_main.md)** - Project structure and main demo
+- **[Blockchain Implementation](docs/README_blockchain.md)** - Detailed blockchain system documentation
+- **[Core Database System](docs/README_core_database.md)** - Main database functionality and API
+- **[API Wrapper](docs/README_api_wrapper.md)** - Simplified interface and convenience methods
+- **[Examples](docs/README_examples.md)** - Comprehensive usage examples and demonstrations
+- **[Validation Tests](docs/README_tests.md)** - Testing framework and validation scenarios
+- **[Main Entry Point](docs/README_main.md)** - Project structure and main demo
 
 ### Key Concepts
 
