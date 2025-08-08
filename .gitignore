@@ -355,12 +355,4 @@ coverage.xml
 *.cover
 *.py,cover
 .hypothesis/
-.pytest_cache/
-
-# Extra README files (keep only main README.md)
-README_blockchain.md
-README_core_database.md
-README_api_wrapper.md
-README_examples.md
-README_tests.md
-README_main.md 
+.pytest_cache/ 
